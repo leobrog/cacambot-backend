@@ -49,4 +49,9 @@ const mongoose = restful.mongoose
             textArea_1: String
         }
 
+        teamSectionSchema {
+            title: String,
+            
+        }
+
 */
