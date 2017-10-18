@@ -1,5 +1,5 @@
-const restful = require('node-restful')
-const mongoose = restful.mongoose
+//const restful = require('node-restful')
+//const mongoose = restful.mongoose
 
 /* DB Schema Example
 
@@ -25,4 +25,4 @@ const ServiceExampleSchema = new mongoose.Schema({
 
 */
 
-module.exports = restful.model('ServiceExample', serviceExampleSchema)
+//module.exports = restful.model('ServiceExample', serviceExampleSchema)

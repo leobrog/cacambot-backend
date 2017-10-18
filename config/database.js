@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-module.exports = mongoose.connect('mongodb://localhost/#') // <-- Connection Path
+module.exports = mongoose.connect('mongodb://localhost/db_cacambotproject') // <-- Connection Path
 
 /* Internacionalização de erros no serviço
 

@@ -1,5 +1,5 @@
-const ServiceExample = require('./ServiceExample')
-const _ = require('lodash')
+//const ServiceExample = require('./ServiceExample')
+//const _ = require('lodash')
 
 /* serviceExample methods and errors
 
@@ -37,4 +37,4 @@ ServiceExample.route('count', function(req, res, next) {
 
 */
 
-module.exports = ServiceExample
+//module.exports = ServiceExample

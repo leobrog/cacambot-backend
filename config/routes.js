@@ -8,10 +8,6 @@ module.exports = function(server) {
 
     //rotas da API
 
-    /* Exemplos:
-
-    const billingCycleService = require('../api/serviceExample/serviceExampleService')
-    billingCycleService.register(router, '/serviceExample')
-
-    */
+    const aplicationContentService = require('../api/aplicationContent/aplicationContentService')
+    aplicationContentService.register(router, '/aplicationContent')
 }
