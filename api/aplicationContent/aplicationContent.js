@@ -13,8 +13,14 @@ const mongoose = restful.mongoose
 
         robotSectionSchema {
             section_title:String,
-            textArea_1: String,
-            textArea_2: String,
+            textArea_1: {
+                heading: String,
+                text: String
+            },
+            textArea_2: {
+                heading: String,
+                text: String
+            }
             imgUrl_1: String,
             imgUrl_2: String,
             imgUrl_3: String,
@@ -24,7 +30,10 @@ const mongoose = restful.mongoose
 
         constructionSectionSchema {
             section_title: String,
-            textArea_1: String,
+            textArea_1: {
+                heading: String,
+                text: String
+            },
             imgUrl_1: String,
             imgUrl_2: String,
             imgUrl_3: String,
@@ -46,12 +55,34 @@ const mongoose = restful.mongoose
         competitionSectionSchema {
             title: String,
             imgUrl_1: String,
-            textArea_1: String
+            textArea_1: {
+                heading: String,
+                text: String
+            },
         }
 
         teamSectionSchema {
             title: String,
-            
+            member_1: {
+                name: String,
+                imgUrl: String
+            },
+            member_2: {
+                name: String,
+                imgUrl: String
+            },
+            member_3: {
+                name: String,
+                imgUrl: String
+            },
+            member_4: {
+                name: String,
+                imgUrl: String
+            },
+            member_5: {
+                name: String,
+                imgUrl: String
+            }
         }
 
 */
