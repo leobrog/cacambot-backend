@@ -10,4 +10,7 @@ module.exports = function(server) {
 
     const aplicationContentService = require('../api/aplicationContent/aplicationContentService')
     aplicationContentService.register(router, '/aplicationContent')
+    
+    const authService = require('../api/user/authService')
+    router.post('/login', authService.login)
 }
